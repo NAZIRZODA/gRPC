@@ -1,6 +1,6 @@
 using MessagePack;
 
-namespace Grpc.Common.Requests;
+namespace Grpc.Server.Requests;
 
     [MessagePackObject]
     public class CustomRequest

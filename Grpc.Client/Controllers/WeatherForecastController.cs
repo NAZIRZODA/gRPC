@@ -1,4 +1,6 @@
-using Grpc.Common.Requests;
+using Grpc.Net.Client;
+using Grpc.Server;
+using MagicOnion.Client;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Grpc.Client.Controllers;
@@ -7,43 +9,19 @@ namespace Grpc.Client.Controllers;
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
 {
-    private readonly IGrpcClient _grpcClient;
-
-    private static readonly string[] Summaries = new[]
+    public WeatherForecastController()
     {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
-
-    private readonly ILogger<WeatherForecastController> _logger;
-
-    public WeatherForecastController(ILogger<WeatherForecastController> logger, IGrpcClient grpcClient)
-    {
-        _logger = logger;
-        _grpcClient = grpcClient;
     }
 
     [HttpGet(Name = "GetWeatherForecast")]
     public async Task Get()
     {
-        var requests = new List<CustomRequest>
-        {
-            new() { Text = "Message 1", Payload = new byte[] { 1, 2, 3 } },
-            new() { Text = "Message 2", Payload = new byte[] { 4, 5, 6 } },
-            new() { Text = "Message 3", Payload = new byte[] { 7, 8, 9 } }
-        };
+        var channel = GrpcChannel.ForAddress("https://localhost:7012");
 
-        try
-        {
-            await _grpcClient.SendMessagesAsync(
-                requests,
-                async response =>
-                {
-                    // Handle each response
-                    await Task.CompletedTask;
-                });
-        }
-        catch
-        {
-        }
+        var client = MagicOnionClient.Create<IMyFirstService>(channel);
+
+        var result = await client.SumAsync(123, 456);
+        Console.WriteLine($"Result: {result}");
+
     }
 }

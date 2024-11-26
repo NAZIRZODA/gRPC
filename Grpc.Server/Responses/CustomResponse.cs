@@ -1,6 +1,6 @@
 using MessagePack;
 
-namespace Grpc.Common.Responses;
+namespace Grpc.Server.Responses;
 
 [MessagePackObject]
 public class CustomResponse

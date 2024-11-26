@@ -13,14 +13,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9646e911-9a78-49fa-8537-3fa08fb40dbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Grpc.Client/IGrpcCleint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grpc.Client/WeatherForecast.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grpc.Common/ICustomService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grpc.Common/MessagePackSerializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grpc.Common/Requests/CustomRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grpc.Common/Responses/CustomResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grpc.Server/CustomService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Grpc.Server/GrpcServerHostedService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grpc.Client/IMyFirstService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Grpc.Server/IMyFirstService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GrpcWithMessagePackSerializer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GrpcWithMessagePackSerializer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Client/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Grpc.Client/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Client/Grpc.Client.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Grpc.Client/Grpc.Client.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Client/IGrpcCleint.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Client/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Grpc.Client/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Common/Grpc.Common.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Common/ICustomService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Common/MessagePackSerializer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Common/Requests/CustomRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Grpc.Server/Requests/CustomRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Common/Responses/CustomResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Grpc.Server/Responses/CustomResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Server/CustomService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Server/Grpc.Server.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Grpc.Server/Grpc.Server.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Server/GrpcServerHostedService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grpc.Server/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Grpc.Server/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcWithMessagePackSerializer.sln" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcWithMessagePackSerializer.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GrpcWithMessagePackSerializer.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/GrpcWithMessagePackSerializer.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +46,23 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/3b8b000a0e115700b18265d8ec8c6307056dc94d/src/libraries/System.Private.CoreLib/src/System/Reflection/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/3b8b000a0e115700b18265d8ec8c6307056dc94d/src/libraries/System.Private.CoreLib/src/System/Runtime/ExceptionServices/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/9f4b1f5d664afdfc80e1508ab7ed099dff210fbd/src/libraries/Microsoft.Extensions.DependencyInjection.Abstractions/src/ServiceProviderServiceExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0fb7a5f343ed4578a15c716986a3f17950c00/5f/d6a69860/MessagePackSerializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ac702a9cd2ef4d3e8b60f47011cb72a127e00/eb/e20620f5/MagicOnionEndpointRouteBuilderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3cc9ace215d69e35a62ffafec03a4e324025ccea3ce67df6b967548f1afe90/ServerCallHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aed62540474f402b1193bf8f32ff86aec484ca5cd43459c65c3fbbe73e73b5/CallSiteValidator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d7fd665bf3b3479e1b42d469191ce18f9a9fb07d6acfadb046c21534e1ef65e9/MemberInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Dilshod/Desktop/DotNet_Projects/gRPCWithMessagePackSerializer/GrpcWithMessagePackSerializer/Grpc.Client/Controllers/WeatherForecastController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Dilshod/Desktop/DotNet_Projects/gRPCWithMessagePackSerializer/GrpcWithMessagePackSerializer/Grpc.Client/IGrpcCleint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Dilshod/Desktop/DotNet_Projects/gRPCWithMessagePackSerializer/GrpcWithMessagePackSerializer/Grpc.Common/Requests/CustomRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Dilshod/Desktop/DotNet_Projects/gRPCWithMessagePackSerializer/GrpcWithMessagePackSerializer/Grpc.Server/CustomService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Dilshod/Desktop/DotNet_Projects/gRPCWithMessagePackSerializer/GrpcWithMessagePackSerializer/Grpc.Server/CustomService.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -66,7 +91,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Multi-Launch.Multi-Launch: GrpcWithMessagePackSerializer">
+  <component name="RunManager" selected=".NET Launch Settings Profile.Grpc.Client: https">
     <configuration name="Grpc.Client: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Grpc.Client/Grpc.Client.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -205,6 +230,7 @@
       <option name="presentableId" value="Default" />
       <updated>1732513160125</updated>
       <workItem from="1732513161974" duration="6585000" />
+      <workItem from="1732616162513" duration="2596000" />
     </task>
     <servers />
   </component>
@@ -215,87 +241,36 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Grpc.Server/IMyFirstService.cs</url>
+          <line>13</line>
+          <properties documentPath="C:\Users\Dilshod\Desktop\DotNet_Projects\gRPCWithMessagePackSerializer\GrpcWithMessagePackSerializer\Grpc.Server\IMyFirstService.cs" containingFunctionPresentation="Method 'SumAsync'">
+            <startOffsets>
+              <option value="318" />
+            </startOffsets>
+            <endOffsets>
+              <option value="319" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Grpc.Client/Controllers/WeatherForecastController.cs</url>
-          <line>26</line>
+          <line>22</line>
           <properties documentPath="C:\Users\Dilshod\Desktop\DotNet_Projects\gRPCWithMessagePackSerializer\GrpcWithMessagePackSerializer\Grpc.Client\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
             <startOffsets>
-              <option value="736" />
+              <option value="517" />
             </startOffsets>
             <endOffsets>
-              <option value="737" />
+              <option value="562" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Grpc.Client/Controllers/WeatherForecastController.cs</url>
-          <line>35</line>
-          <properties documentPath="C:\Users\Dilshod\Desktop\DotNet_Projects\gRPCWithMessagePackSerializer\GrpcWithMessagePackSerializer\Grpc.Client\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
-            <startOffsets>
-              <option value="1054" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1055" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Grpc.Client/Controllers/WeatherForecastController.cs</url>
-          <line>41</line>
-          <properties documentPath="C:\Users\Dilshod\Desktop\DotNet_Projects\gRPCWithMessagePackSerializer\GrpcWithMessagePackSerializer\Grpc.Client\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Lambda expression inside Method 'Get'">
-            <startOffsets>
-              <option value="1247" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1272" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Grpc.Server/CustomService.cs</url>
-          <line>21</line>
-          <properties documentPath="C:\Users\Dilshod\Desktop\DotNet_Projects\gRPCWithMessagePackSerializer\GrpcWithMessagePackSerializer\Grpc.Server\CustomService.cs" containingFunctionPresentation="Method 'ProcessRequestAsync'">
-            <startOffsets>
-              <option value="535" />
-            </startOffsets>
-            <endOffsets>
-              <option value="536" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Grpc.Client/Controllers/WeatherForecastController.cs</url>
-          <line>43</line>
-          <properties documentPath="C:\Users\Dilshod\Desktop\DotNet_Projects\gRPCWithMessagePackSerializer\GrpcWithMessagePackSerializer\Grpc.Client\Controllers\WeatherForecastController.cs" containingFunctionPresentation="Method 'Get'">
-            <startOffsets>
-              <option value="1301" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1302" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Grpc.Client/IGrpcCleint.cs</url>
-          <line>59</line>
-          <properties documentPath="C:\Users\Dilshod\Desktop\DotNet_Projects\gRPCWithMessagePackSerializer\GrpcWithMessagePackSerializer\Grpc.Client\IGrpcCleint.cs" containingFunctionPresentation="Method 'SendMessagesAsync'">
-            <startOffsets>
-              <option value="2279" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2330" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,4 +1,4 @@
-using Grpc.Client;
+using IMyFirstService = Grpc.Client.IMyFirstService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,8 +8,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.Configure<GrpcClientOptions>(builder.Configuration.GetSection("GrpcClient"));
-builder.Services.AddSingleton<IGrpcClient, GrpcClient>();
+
+builder.Services.AddGrpcClient<IMyFirstService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

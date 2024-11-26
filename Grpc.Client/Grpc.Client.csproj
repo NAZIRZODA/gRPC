@@ -9,11 +9,12 @@
     <ItemGroup>
         <PackageReference Include="Grpc.AspNetCore" Version="2.67.0" />
         <PackageReference Include="Grpc.Core.Api" Version="2.67.0" />
+        <PackageReference Include="MagicOnion.Client" Version="6.1.6" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Grpc.Common\Grpc.Common.csproj" />
+      <ProjectReference Include="..\Grpc.Server\Grpc.Server.csproj" />
     </ItemGroup>
 
 </Project>
