@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option csharp_namespace = "Grpc.Protobuf.Server.Proto";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+
+package Grpc.Protobuf.Server.Proto;
+
+service MyFirstServiceGrpc{
+  rpc TestAsync(CustomRequest) returns(CustomResponse);
+}
+
+message CustomRequest{
+  bytes byte_Collection = 1;
+  optional int32 nullable_int = 2;
+  repeated int32 int_collection = 3;
+  string text = 4;
+  Interval generic_int = 5;
+  optional Interval nullable_generic_int = 6;
+  google.protobuf.Timestamp date_time = 7;
+  optional google.protobuf.Timestamp nullable_date_time = 8;
+}
+
+message CustomResponse{
+  bytes byte_Collection = 1;
+  optional int32 nullable_int = 2;
+  repeated int32 int_collection = 3;
+  string text = 4;
+  Interval generic_int = 5;
+  optional Interval nullable_generic_int = 6;
+  google.protobuf.Timestamp date_time = 7;
+  optional google.protobuf.Timestamp nullable_date_time = 8;
+}
+
+message Interval{
+  int32 start = 1;
+  int32 end = 2;
+}
